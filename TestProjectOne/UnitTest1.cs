@@ -37,23 +37,12 @@ namespace TestProjectOne
             Assert.AreEqual(a, b);
         }
 
+         public void TestMethod4()
+         {
+                int a = 5;
+                int b = 5;
+                Assert.AreEqual(a, b);
+         }
+       }
     }
-
-    public class UnitTest4
-    {
-        [TestMethod]
-        public void TestMethod1()
-        {
-            int a = 5;
-            int b = 5;
-            Assert.AreEqual(a, b);
-        }
-
-    }
-
-
-
-
-
 }
-
