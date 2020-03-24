@@ -89,3 +89,4 @@ C:\Users\roshair\Source\Repos\Cognizant DevOps\TestProjectOne\bin\Debug\netcorea
 C:\Users\roshair\Source\Repos\Cognizant DevOps\TestProjectOne\obj\Debug\netcoreapp3.1\TestProjectOne.csproj.CopyComplete
 C:\Users\roshair\Source\Repos\Cognizant DevOps\TestProjectOne\obj\Debug\netcoreapp3.1\TestProjectOne.dll
 C:\Users\roshair\Source\Repos\Cognizant DevOps\TestProjectOne\obj\Debug\netcoreapp3.1\TestProjectOne.pdb
+C:\Users\roshair\Source\Repos\Cognizant DevOps\TestProjectOne\obj\Debug\netcoreapp3.1\TestProjectOne.csprojAssemblyReference.cache

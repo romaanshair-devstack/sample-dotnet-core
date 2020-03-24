@@ -32,3 +32,4 @@ C:\Users\roshair\source\repos\Cognizant DevOps\MyAccess\obj\Debug\netcoreapp3.1\
 C:\Users\roshair\source\repos\Cognizant DevOps\MyAccess\obj\Debug\netcoreapp3.1\MyAccess.dll
 C:\Users\roshair\source\repos\Cognizant DevOps\MyAccess\obj\Debug\netcoreapp3.1\MyAccess.pdb
 C:\Users\roshair\source\repos\Cognizant DevOps\MyAccess\obj\Debug\netcoreapp3.1\MyAccess.csproj.CopyComplete
+C:\Users\roshair\Source\Repos\Cognizant DevOps\MyAccess\obj\Debug\netcoreapp3.1\MyAccess.csprojAssemblyReference.cache
