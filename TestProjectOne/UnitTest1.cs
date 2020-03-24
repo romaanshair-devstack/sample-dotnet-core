@@ -18,20 +18,21 @@ namespace TestProjectOne
             int a = 5;
             int b = 5;
             Assert.AreEqual(a, b);
+        }
 
-            public void TestMethod3()
-            {
+         public void TestMethod3()
+        {
                 int a = 5;
                 int b = 5;
                 Assert.AreEqual(a, b);
-            }
+        }
 
-            public void TestMethod4()
-            {
+         public void TestMethod4()
+         {
                 int a = 5;
                 int b = 5;
                 Assert.AreEqual(a, b);
-            }
+         }
         }
     }
 }
