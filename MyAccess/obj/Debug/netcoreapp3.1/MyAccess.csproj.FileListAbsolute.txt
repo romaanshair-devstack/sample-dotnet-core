@@ -1,7 +1,6 @@
 C:\Users\roshair\source\repos\Cognizant DevOps\MyAccess\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\roshair\source\repos\Cognizant DevOps\MyAccess\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\roshair\source\repos\Cognizant DevOps\MyAccess\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\roshair\source\repos\Cognizant DevOps\MyAccess\obj\Debug\netcoreapp3.1\MyAccess.csprojAssemblyReference.cache
 C:\Users\roshair\source\repos\Cognizant DevOps\MyAccess\obj\Debug\netcoreapp3.1\staticwebassets\MyAccess.StaticWebAssets.Manifest.cache
 C:\Users\roshair\source\repos\Cognizant DevOps\MyAccess\obj\Debug\netcoreapp3.1\staticwebassets\MyAccess.StaticWebAssets.xml
 C:\Users\roshair\source\repos\Cognizant DevOps\MyAccess\obj\Debug\netcoreapp3.1\MyAccess.RazorAssemblyInfo.cache

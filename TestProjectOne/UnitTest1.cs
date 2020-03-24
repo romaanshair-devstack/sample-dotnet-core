@@ -13,6 +13,7 @@ namespace TestProjectOne
             Assert.AreEqual(a, b);
         }
 
+        [TestMethod]
         public void TestMethod2()
         {
             int a = 5;
@@ -20,19 +21,14 @@ namespace TestProjectOne
             Assert.AreEqual(a, b);
         }
 
-         public void TestMethod3()
+        [TestMethod]
+        public void TestMethod3()
         {
-                int a = 5;
-                int b = 5;
-                Assert.AreEqual(a, b);
+            int a = 5;
+            int b = 5;
+            Assert.AreEqual(a, b);
         }
 
-         public void TestMethod4()
-         {
-                int a = 5;
-                int b = 5;
-                Assert.AreEqual(a, b);
-         }
-        }
     }
-}
+    }
+
