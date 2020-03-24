@@ -13,16 +13,12 @@ namespace TestProjectOne
             Assert.AreEqual(a, b);
         }
 
-        [TestMethod]
-        public void TestMethod2()
-        {
-            int a = 5;
-            int b = 5;
-            Assert.AreEqual(a, b);
-        }
+    }
 
+    public class UnitTest2
+    {
         [TestMethod]
-        public void TestMethod3()
+        public void TestMethod1()
         {
             int a = 5;
             int b = 5;
@@ -30,5 +26,34 @@ namespace TestProjectOne
         }
 
     }
+
+    public class UnitTest3
+    {
+        [TestMethod]
+        public void TestMethod1()
+        {
+            int a = 5;
+            int b = 5;
+            Assert.AreEqual(a, b);
+        }
+
     }
+
+    public class UnitTest4
+    {
+        [TestMethod]
+        public void TestMethod1()
+        {
+            int a = 5;
+            int b = 5;
+            Assert.AreEqual(a, b);
+        }
+
+    }
+
+
+
+
+
+}
 
