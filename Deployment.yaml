@@ -35,7 +35,7 @@ spec:
         ports:
         - containerPort: 80
         imagePullSecrets:
-        - name: Cognizant
+        - name: cognizant
         resources:
             requests:
               cpu: "50m"
