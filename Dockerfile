@@ -8,7 +8,7 @@ WORKDIR /src
 COPY ["MyAccess/MyAccess.csproj", "MyAccess/"]
 RUN dotnet restore "MyAccess/MyAccess.csproj"
 COPY . .
-WORKDIR "/src/MyAccess"
+WORKDIR "/MyAccess"
 RUN dotnet build "MyAccess.csproj" -c Release -o /app
 
 FROM build AS publish
