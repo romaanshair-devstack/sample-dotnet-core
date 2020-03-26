@@ -6,7 +6,6 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-nanoserver-1809 AS build
 WORKDIR /src
 COPY ["MyAccess/MyAccess.csproj", "MyAccess/"]
-RUN dotnet clean "MyAccess/MyAccess.csproj"
 RUN dotnet restore "MyAccess/MyAccess.csproj"
 COPY . .
 WORKDIR "MyAccess/"
