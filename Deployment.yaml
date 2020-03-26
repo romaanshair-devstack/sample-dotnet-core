@@ -42,7 +42,7 @@ spec:
               cpu: "100m"
               memory: "256Mi"
       imagePullSecrets:
-      - name: Cognizant
+      - name: myaccess
 ---   
 
 apiVersion: v1
