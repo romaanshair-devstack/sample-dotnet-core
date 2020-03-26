@@ -32,6 +32,7 @@ spec:
       containers:
       - name: myaccesscontainer
         image: acrdevopspoc.azurecr.io/cognizantdevops:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
         resources:
