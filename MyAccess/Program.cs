@@ -16,6 +16,11 @@ namespace MyAccess
             CreateHostBuilder(args).Build().Run();
         }
 
+        public void EmptyMethod()
+        {
+
+        }
+
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
