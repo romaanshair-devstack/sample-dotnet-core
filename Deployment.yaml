@@ -34,6 +34,8 @@ spec:
         image: acrdevopspoc.azurecr.io/cognizantdevops:$(Build.BuildNumber)
         ports:
         - containerPort: 80
+        imagePullSecrets:
+        - name: Cognizant
         resources:
             requests:
               cpu: "50m"
