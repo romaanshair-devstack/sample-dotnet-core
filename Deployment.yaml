@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: myaccesscontainer
-        image: acrdevopspoc.azurecr.io/cognizantdevops:$(Build.BuildId)
+        image: acrdevopspoc.azurecr.io/cognizantdevops:latest
         ports:
         - containerPort: 80
         resources:
