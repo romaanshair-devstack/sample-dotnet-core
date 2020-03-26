@@ -6,7 +6,7 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1-nanoserver-1903 AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1-nanoserver-1803 AS build
 WORKDIR /src
 COPY ["MyAccess.csproj", ""]
 RUN dotnet restore "./MyAccess.csproj"
