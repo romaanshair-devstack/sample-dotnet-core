@@ -6,7 +6,7 @@ spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: cognizant_deploy
+    name: ctsdeploy
   minReplicas: 2
   maxReplicas: 15
   metrics:
@@ -18,19 +18,19 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cognizant_deploy
+  name: ctsdeploy
 spec:
   selector:
     matchLabels:
-      app: CTS
+      app: cts
   replicas: 2
   template:
     metadata:
       labels:
-        app: CTS
+        app: cts
     spec:
       containers:
-      - name: CTS_Container
+      - name: myaccesscontainer
         image: acrdevopspoc.azurecr.io/cognizantdevops:$(Build.BuildNumber)
         ports:
         - containerPort: 80
@@ -48,9 +48,9 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: cognizant_service
+  name: ctsservice
   labels:
-    app: CTS
+    app: cts
 spec:
   type: LoadBalancer
   ports:
