@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roshair\\Source\\Repos\\Cognizant DevOps\\MyAccess\\MyAccess.csproj": {}
+    "D:\\Azure Repos\\Cognizant DevOps\\MyAccess\\MyAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roshair\\Source\\Repos\\Cognizant DevOps\\MyAccess\\MyAccess.csproj": {
+    "D:\\Azure Repos\\Cognizant DevOps\\MyAccess\\MyAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roshair\\Source\\Repos\\Cognizant DevOps\\MyAccess\\MyAccess.csproj",
+        "projectUniqueName": "D:\\Azure Repos\\Cognizant DevOps\\MyAccess\\MyAccess.csproj",
         "projectName": "MyAccess",
-        "projectPath": "C:\\Users\\roshair\\Source\\Repos\\Cognizant DevOps\\MyAccess\\MyAccess.csproj",
-        "packagesPath": "C:\\Users\\roshair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roshair\\Source\\Repos\\Cognizant DevOps\\MyAccess\\obj\\",
+        "projectPath": "D:\\Azure Repos\\Cognizant DevOps\\MyAccess\\MyAccess.csproj",
+        "packagesPath": "C:\\Users\\abhilashl\\.nuget\\packages\\",
+        "outputPath": "D:\\Azure Repos\\Cognizant DevOps\\MyAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\roshair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abhilashl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -41,12 +41,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.9.10, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -57,15 +51,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

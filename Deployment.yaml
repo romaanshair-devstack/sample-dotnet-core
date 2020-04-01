@@ -1,0 +1,62 @@
+apiVersion: autoscaling/v2beta1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: localhpatest
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: ctsdeploy
+  minReplicas: 2
+  maxReplicas: 15
+  metrics:
+    - resource:
+        name: cpu
+        targetAverageUtilization: 40
+      type: Resource
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ctsdeploy
+spec:
+  selector:
+    matchLabels:
+      app: cts
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: cts
+    spec:
+      containers:
+      - name: myaccesscontainer
+        image: acrdevopspoc.azurecr.io/cognizantdevops:#{Build.BuildId}#
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+        resources:
+            requests:
+              cpu: "50m"
+              memory: "64Mi"
+            limits: 
+              cpu: "100m"
+              memory: "256Mi"
+      imagePullSecrets:
+      - name: myaccess
+---   
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: ctsservice
+  labels:
+    app: cts
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 83
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: cts
