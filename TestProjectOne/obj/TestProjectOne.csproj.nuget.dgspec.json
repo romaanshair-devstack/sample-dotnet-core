@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roshair\\Source\\Repos\\Cognizant DevOps\\TestProjectOne\\TestProjectOne.csproj": {}
+    "D:\\Azure Repos\\Cognizant DevOps\\TestProjectOne\\TestProjectOne.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roshair\\Source\\Repos\\Cognizant DevOps\\TestProjectOne\\TestProjectOne.csproj": {
+    "D:\\Azure Repos\\Cognizant DevOps\\TestProjectOne\\TestProjectOne.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roshair\\Source\\Repos\\Cognizant DevOps\\TestProjectOne\\TestProjectOne.csproj",
+        "projectUniqueName": "D:\\Azure Repos\\Cognizant DevOps\\TestProjectOne\\TestProjectOne.csproj",
         "projectName": "TestProjectOne",
-        "projectPath": "C:\\Users\\roshair\\Source\\Repos\\Cognizant DevOps\\TestProjectOne\\TestProjectOne.csproj",
-        "packagesPath": "C:\\Users\\roshair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roshair\\Source\\Repos\\Cognizant DevOps\\TestProjectOne\\obj\\",
+        "projectPath": "D:\\Azure Repos\\Cognizant DevOps\\TestProjectOne\\TestProjectOne.csproj",
+        "packagesPath": "C:\\Users\\abhilashl\\.nuget\\packages\\",
+        "outputPath": "D:\\Azure Repos\\Cognizant DevOps\\TestProjectOne\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\roshair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abhilashl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -41,24 +41,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[2.0.0, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.0.0, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.2.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -69,12 +51,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
