@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: myaccesscontainer
-        image: acrdevopspoc.azurecr.io/cognizantdevops:#{Build.BuildId}#
+        image: acrdevopspoc.azurecr.io/romaanshair-devstack/sample-dotnet-core:#{Build.BuildId}#
         imagePullPolicy: Always
         ports:
         - containerPort: 80
